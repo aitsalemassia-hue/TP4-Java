@@ -15,3 +15,8 @@ Exercice 3:
 
 Exercice 4:
 <img width="380" height="167" alt="capture 33" src="https://github.com/user-attachments/assets/5d274a53-15d8-4df3-96f2-7b573c2ac880" />
+Exercice 5:
+<img width="284" height="110" alt="exercice 5" src="https://github.com/user-attachments/assets/63507a8a-7a20-4b01-93b7-d869d0ce4fe5" />
+
+Exercice 6:
+<img width="212" height="91" alt="exercice 6" src="https://github.com/user-attachments/assets/c1f6cef4-a242-460c-946f-39522029d98d" />
