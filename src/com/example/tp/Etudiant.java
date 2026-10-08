@@ -7,19 +7,19 @@ public class Etudiant {
 	private final int id;
 	private String nom;
 	private String prenom;
-	//private double[] notes;
-	//private int nbNotes;
+	private double[] notes;
+	private int nbNotes;
 	private Filiere filiere;
 
 	public Etudiant(String nom, String prenom) {
 		this.id = ++compteur;
 		this.nom = nom;
 		this.prenom = prenom;
-		//this.notes = new double[5];
-		//this.nbNotes = 0;
+		this.notes = new double[5];
+		this.nbNotes = 0;
 	}
 
-	/*/ gerant la capacité de stockage si le tableau est plein.
+	// gerant la capacité de stockage si le tableau est plein.
 	public void ajouterNote(double note) {
 		if (nbNotes == notes.length) {
 			double[] tmp = new double[notes.length * 2];
@@ -61,7 +61,7 @@ public class Etudiant {
 		System.out.println();
 	}
 
-	//
+	//tri des notes
 	public void triNotes(double[] notes) {
 		for (int i = 1; i < nbNotes; i++) {
 			for (int j = 0; j < nbNotes - i; j++) {
@@ -78,9 +78,9 @@ public class Etudiant {
 	        this.filiere = f;
 	    }
 	 	
-	   /* public double[] getNotes() {
+	 public double[] getNotes() {
 		return notes;
-	}*/
+	}
 
 	
 
